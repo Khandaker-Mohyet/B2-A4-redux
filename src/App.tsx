@@ -1,12 +1,14 @@
 import { Button } from "./components/ui/button"
+import { Input } from "@/components/ui/input"
 
 function App() {
   
 
   return (
     <>
-      <div className="flex min-h-svh flex-col items-center justify-center">
+      <div >
       <Button>Click me</Button>
+      <Input type="email" placeholder="Email" />
     </div>
     </>
   )
