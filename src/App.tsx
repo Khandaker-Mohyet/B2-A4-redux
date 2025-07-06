@@ -13,6 +13,7 @@ function App() {
       <div className="grid w-full max-w-sm items-center gap-3">
       <Label htmlFor="email">Email</Label>
       <Input type="email" id="email" placeholder="Email" />
+      <h1>Nothing to have</h1>
     </div>
     </div>
     </>
